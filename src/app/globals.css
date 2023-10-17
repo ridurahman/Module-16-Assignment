@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=Poppins:wght@400;500;600;700&display=swap");
+
+@layer base {
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+}
+.bg-linear {
+  background-color: rgba(215, 245, 220, 1);
+}
+.text-orange {
+  color: rgba(245, 95, 29, 1);
+}
+.bg-orange {
+  background-color: rgba(245, 95, 29, 1);
+}
+.filter-gray {
+  filter: brightness(0) saturate(100%) invert(48%) sepia(8%) saturate(650%)
+    hue-rotate(197deg) brightness(93%) contrast(95%);
+}
+.line-gray {
+  color: rgba(227, 227, 227, 1);
+}
